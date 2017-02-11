@@ -16,18 +16,19 @@
 <body>
     <div class="login-page">
         <div class="form">
+            <div class="logo">
+                <img src="assets/img/logo.png" class="img-fluid" alt="Responsive image">
+            </div>
             <form class="register-form">
-                <input type="text" placeholder="name">
-                <input type="password" placeholder="password">
-                <input type="text" placeholder="email address">
-                <button>create</button>
-                <p class="message">Already registered? <a href="#">Sign In</a></p>
+                <input type="text" placeholder="correo">
+                <button onclick="location.href='catalogo'" type="button">continuar</button>
+                <p class="message">Conoces tu usuario y contraseña... <a href="#">¡Inicia sesión!</a></p>
             </form>
             <form class="login-form">
-                <input type="text" placeholder="usuario">
+                <input type="text" placeholder="correo">
                 <input type="password" placeholder="contraseña">
-                <button>login</button>
-                <p class="message">Not registered? <a href="#">Create an account</a></p>
+                <button onclick="location.href='catalogo'" type="button">entrar</button>
+                <p class="message">Olvidaste tu contraseña... <a href="#">¡Recupérala!</a></p>
             </form>
         </div>
     </div>
@@ -36,4 +37,5 @@
     <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="assets/js/login/login.js"></script>
 </body>
+
 </html>
