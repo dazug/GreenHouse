@@ -1,4 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
+.logo {
+    width: 50%;
+    margin: 0 auto 15px auto; 
+}
+
 .login-page {
     width: 360px;
     padding: 8% 0 0;
@@ -32,7 +37,7 @@
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
     outline: 0;
-    background: #4CAF50;
+    background: #A6CF39;
     width: 100%;
     border: 0;
     padding: 15px;
@@ -46,7 +51,7 @@
 .form button:hover,
 .form button:active,
 .form button:focus {
-    background: #43A047;
+    background: #008641;
 }
 
 .form .message {
@@ -56,7 +61,7 @@
 }
 
 .form .message a {
-    color: #4CAF50;
+    color: #A6CF39;
     text-decoration: none;
 }
 
@@ -106,13 +111,20 @@
 }
 
 body {
-    background: #76b852;
+    background: #008641;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(right, #76b852, #8DC26F);
-    background: -moz-linear-gradient(right, #76b852, #8DC26F);
-    background: -o-linear-gradient(right, #76b852, #8DC26F);
-    background: linear-gradient(to left, #76b852, #8DC26F);
+    background: -webkit-linear-gradient(right, #008641, #008641);
+    background: -moz-linear-gradient(right, #008641, #008641);
+    background: -o-linear-gradient(right, #008641, #008641);
+    background: linear-gradient(to left, #008641, #008641);
     font-family: "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
 }
